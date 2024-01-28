@@ -11,26 +11,29 @@
   <body>
      
 	  <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="#open-modal.modal>" data-bs-target="#open-modal">
-  Launch newton modal 
+<button type="button" class="btn btn-primary" id="open-modal" data-bs-toggle="modal" data-bs-target="#newton-modal">
+	Launch newton model
 </button>
 
+
 <!-- Modal -->
-<div class="modal"  id="newton-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+<div class="modal fade" id="newton-modal" tabindex="-1" aria-labelledby="newton-modal-label" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="newton-modal">New Modal</h1>
+        <h5 class="modal-title" id="newton-modal-label">New Modal</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-		<div class="modal-dialog modal-dialog-centered">
- Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint rerum reprehenderit provident ducimus ratione officiis nesciunt obcaecati illum in, reiciendis, perferendis labore sed sequi. Nulla eum molestias rem quaerat sint.
-</div>
-     
+      <div class="modal-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
       <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
-        
       </div>
     </div>
   </div>
